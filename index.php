@@ -35,6 +35,14 @@
     <!-- Estilos propios -->
     <link rel="stylesheet" href="./styles.css">
 
+    <!-- Favicion -->
+    <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Bullpadel" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+
     <title>Bullpadel Argentina</title>
 </head>
 <body class="d-flex flex-column min-vh-100">
@@ -78,19 +86,42 @@
             </div>
             <section class="mx-4 my-5">
                 <h2 class="my-5">Nuestros Jugadores</h2>
-
-                <article>
-                    <div class="row g-4 align-items-start">
-                        <!-- <div class="col-12 col-md-3 col-lg-2 text-center text-md-start">
-                            <img src="./recursos/chingotto.jpg" alt="Jugador Federico Chingotto">
-                        </div> -->
-                        <div class="col-12 col-md-3 col-lg-2 text-center text-md-start">
-                            <h3>Fede Chingotto</h3>
-                            <p>Fede Chingotto es uno de los referentes más destacados del pádel mundial y un orgullo para Argentina. Reconocido por su inteligencia táctica, velocidad y capacidad defensiva, se ha consolidado entre los mejores jugadores del circuito profesional gracias a su esfuerzo, disciplina y pasión por el deporte.
-                                Como integrante del Team Bullpadel, Fede confía en la innovación y la calidad de los productos de la marca para competir al más alto nivel. Su estilo de juego, basado en la precisión y el control, representa los valores que impulsan a Bullpadel a desarrollar equipamiento de excelencia para jugadores de todas las categorías.</p>
+                
+                <div class="d-flex flex-column gap-3">
+                    <article>
+                        <div class="row g-4 align-items-center">
+                            <div class="col-4">
+                                <div>
+                                    <img src="./recursos/chingotto.jpg" alt="Jugador Federico Chingotto" class="w-100 rounded-4">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="px-4 h-100">
+                                    <h3 class="mb-3">Fede Chingotto</h3>
+                                    <p>Fede Chingotto es uno de los referentes más destacados del pádel mundial y un orgullo para Argentina. Reconocido por su inteligencia táctica, velocidad y capacidad defensiva, se ha consolidado entre los mejores jugadores del circuito profesional gracias a su esfuerzo, disciplina y pasión por el deporte.
+                                        Como integrante del Team Bullpadel, Fede confía en la innovación y la calidad de los productos de la marca para competir al más alto nivel. Su estilo de juego, basado en la precisión y el control, representa los valores que impulsan a Bullpadel a desarrollar equipamiento de excelencia para jugadores de todas las categorías.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
+    
+                    <article>
+                        <div class="row g-4 align-items-center">
+                            <div class="col-8">
+                                <div class="px-4 h-100">
+                                    <h3 class="mb-3">Delfi Brea</h3>
+                                    <p>Delfi Brea es una de las grandes figuras del pádel femenino internacional. Su talento, determinación y carácter competitivo la han llevado a alcanzar los primeros puestos del ranking mundial, convirtiéndose en una inspiración para miles de jugadoras y aficionados al pádel.
+                                        Como embajadora de Bullpadel, Delfi refleja el compromiso de la marca con la innovación, el rendimiento y la superación constante. Su confianza en los productos Bullpadel demuestra la importancia de contar con el mejor equipamiento para afrontar los desafíos del más alto nivel competitivo.</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div>
+                                    <img src="./recursos/Delfi-B.jpg" alt="Jugadora Delfina Brea" class="w-100 rounded-4">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </section>
         </div>
     </main>
